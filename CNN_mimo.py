@@ -30,7 +30,7 @@ if __name__ == '__main__':
     save_parameters = False
     save_training_error = False
 
-    n_epochs = 2
+    n_epochs = 4
     n_steps_per_epoch = 40
     n_learning_batche_size = 20
 
