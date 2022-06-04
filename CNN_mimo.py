@@ -46,7 +46,7 @@ if __name__ == '__main__':
     n_antennas_BS = 64
     n_pilots = 4
 
-    use_other_estimators =Fals 
+    use_other_estimators =False
     use_genie_estimators = True
     use_cnn_estimators = False
     plot_axis = "snr"
