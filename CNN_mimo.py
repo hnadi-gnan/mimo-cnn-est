@@ -41,10 +41,10 @@ if __name__ == '__main__':
     snrs = [-15.0, -10.0, -5.0, 0.0, 5.0, 10.0, 15.0, 20.0]
     # snrs = [5.0]
 
-    n_coherences = 1.2
-    n_antennas_MS = 2.2
-    n_antennas_BS = 120
-    n_pilots = 2.2
+    n_coherences = 1
+    n_antennas_MS = 2
+    n_antennas_BS = 64
+    n_pilots = 2
 
     use_other_estimators = False
     use_genie_estimators = False
