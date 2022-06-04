@@ -38,7 +38,7 @@ if __name__ == '__main__':
     n_eval_batche_size = 20
 
     n_path = 3
-    snrs = [-15.0, -10.0, -5.0, 0.0, 5.0, 10.0, 15.0, 20.0]
+    snrs = [2, 4,6, 8, 10, 12, 14, 16]
     # snrs = [5.0]
 
     n_coherences = 1
