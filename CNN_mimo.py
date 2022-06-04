@@ -31,8 +31,8 @@ if __name__ == '__main__':
     save_training_error = False
 
     n_epochs = 2
-    n_steps_per_epoch = 40
-    n_learning_batche_size = 20
+    n_steps_per_epoch = 4
+    n_learning_batche_size = 2
 
     n_eval_batches = 2
     n_eval_batche_size = 20
@@ -42,12 +42,12 @@ if __name__ == '__main__':
     # snrs = [5.0]
 
     n_coherences = 1
-    n_antennas_MS = 2
+    n_antennas_MS = 4
     n_antennas_BS = 64
-    n_pilots = 2
+    n_pilots = 4
 
-    use_other_estimators =True 
-    use_genie_estimators = False
+    use_other_estimators =Fals 
+    use_genie_estimators = True
     use_cnn_estimators = False
     plot_axis = "snr"
 
