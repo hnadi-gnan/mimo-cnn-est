@@ -30,8 +30,8 @@ if __name__ == '__main__':
     save_parameters = False
     save_training_error = False
 
-    n_epochs = 250
-    n_steps_per_epoch = 40
+    n_epochs = 5
+    n_steps_per_epoch = 2
     n_learning_batche_size = 20
 
     n_eval_batches = 2
@@ -47,8 +47,8 @@ if __name__ == '__main__':
     n_pilots = 2
 
     use_other_estimators = False
-    use_genie_estimators = False
-    use_cnn_estimators = True
+    use_genie_estimators = True
+    use_cnn_estimators = False
     plot_axis = "snr"
 
     transforms = 'fft'
